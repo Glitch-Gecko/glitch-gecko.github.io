@@ -4,7 +4,7 @@ plugins:
 - jekyll-remote-theme
 
 title: Ainchentmew2
-description: "[insert description later]"
+description: "Welcome to my website!"
 baseurl: "/"
 url: "https://ainchentmew2.github.io"
 
