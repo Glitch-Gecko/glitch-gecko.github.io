@@ -1,0 +1,3 @@
+For some reason running the bundle exec jekyll serve command never works.
+
+My fix was installing ruby 2.5.9 via rvm, and running $ gem install nokogumbo -- --with-ldflags='-L. -Wl,-O1 -Wl,--as-needed -fstack-protector -rdynamic -Wl,-export-dynamic'
