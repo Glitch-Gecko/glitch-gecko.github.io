@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Ainchentmew2"
+description: "Welcome to my website!"
 ---
 
 # Welcome and Hello!
