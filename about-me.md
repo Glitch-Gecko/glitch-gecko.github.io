@@ -1,5 +1,6 @@
 ---
 layout: default
+description: "About me"
 ---
 
 # About me

@@ -1,5 +1,6 @@
 ---
 layout: default
+description: "H@cktivitycon CTF Writeups"
 ---
 Note: I'm still cleaning up the site so this is unfinished as of now.
 
