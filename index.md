@@ -8,6 +8,4 @@
 layout: home
 ---
 
-# Welcome and Hello!
-
 This is a website that I'll be using in the future to document my progress in my journey through learning cyber security, posting writeups for CTFs or other challenges, and also linking some of my personal projects.
