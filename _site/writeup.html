@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Ainchentmew2 | Welcome to my website!</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Ainchentmew2" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Welcome to my website!" />
+<meta property="og:description" content="Welcome to my website!" />
+<link rel="canonical" href="https://ainchentmew2.github.io/writeup.html" />
+<meta property="og:url" content="https://ainchentmew2.github.io/writeup.html" />
+<meta property="og:site_name" content="Ainchentmew2" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Ainchentmew2" />
+<script type="application/ld+json">
+{"description":"Welcome to my website!","@type":"WebPage","headline":"Ainchentmew2","url":"https://ainchentmew2.github.io/writeup.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <img src="https://avatars.githubusercontent.com/u/17220280?v=4" style="border-radius: 50% !important; display: inline-block;">
+      <h1 class="project-name">Ainchentmew2</h1>
+      <h2 class="project-tagline">Welcome to my website!</h2>
+      <a href="https://github.com/Ainchentmew2/ainchentmew2.github.io" class="btn">View on GitHub</a>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <p>Note: I’m still cleaning up the site so this is unfinished as of now.</p>
+
+<h1 id="hcktivitycon-ctf">H@cktivitycon CTF</h1>
+
+<p>Before now, I’ve had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it’d be a great learning experience for me.</p>
+
+<p>I spent several hours researching and learning, in hopes of building up my abilities before the CTF. When it came time to start, I felt like I’d be a little useless and not have much to bring to the team, but it turned out that I actually solved seven challenges, netting  me just over 1100 points.</p>
+
+<p>In this post, I’m going to be detailing my thought process and how I found each flag, based on the order I completed them in.</p>
+
+<h2 id="tsunami">Tsunami</h2>
+<h4 id="description-woah-its-a-natural-disaster-but-something-doesnt-seem-so-natural-about-this-big-wave">Description: “Woah! It’s a natural disaster! But something doesn’t seem so natural about this big wave…</h4>
+
+<p>Nobody on my team seemed interested in trying this one, as it involved an audio file and none of us had headphones. I figured maybe there was something hidden in the visualization in the wave itself, so I downloaded it and opened it in sonic visualiser. I couldn’t find anything right away, but I looked at the spectrogram view and zoomed in a little towards the end, and the flag was right there in plaintext!</p>
+
+<h2 id="bass-64">Bass 64</h2>
+<h4 id="description-it-uh-looks-like-someone-bass-boosted-this-can-you-make-any-sense-of-it">Description: “It, uh… looks like someone bass-boosted this? Can you make any sense of it?”</h4>
+
+<p>Downloading this file resulted in an ASCII text file with every letter represented as ASCII art. Based on the name and the hint, I assumed that it was encoded in base 64. Sure enough, I copied down the letters into a base 64 decoder, and got the flag!</p>
+
+<h2 id="target-practice">Target Practice</h2>
+<h4 id="description-can-you-hit-a-moving-target">Description: “Can you hit a moving target?”</h4>
+
+<p>This one was a gif that looked a little like a target with vibrating dots on the outside of the target. I split apart the frames of the gif, and noticed that frame 16 looked a little odd compared to the rest, based on the top left corner sticking out. I wondered what I could do with the image, and realized it looked a little like a QR code. Upon searching for circular QR codes, I found out that the image was actually a Maxi code, and scanning it gave the flag!</p>
+
+<h2 id="butter-overflow">Butter Overflow</h2>
+<h4 id="description-can-you-overflow-this-right">Description: “Can you overflow this right?”</h4>
+
+<p>Upon connecting to the port, you’re asked a simple question: “How many bytes does it take to overflow this buffer?”</p>
+
+<p>I did what any sane person would do, and proceded to hold the letter ‘a’ for quite some time. I don’t know exactly how many I needed to overflow the buffer, but this worked and got the flag!
+<img src="https://github.com/Ainchentmew2/ainchentmew2.github.io/blob/main/images/Butter_Overflow2.png" alt="Overflow" /></p>
+
+<h2 id="integrity">Integrity</h2>
+<h4 id="description-my-school-was-trying-to-teach-people-about-the-cia-triad-so-they-made-all-these-dumb-example-applications-as-if-they-know-anything-about-information-security-supposedly-they-learned-their-lesson-and-tried-to-make-this-one-more-secure-can-you-prove-it-is-still-vulnerable">Description: “My school was trying to teach people about the CIA triad so they made all these dumb example applications… As if they know anything about information security. Supposedly they learned their lesson and tried to make this one more secure. Can you prove it is still vulnerable?”</h4>
+
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/Ainchentmew2/ainchentmew2.github.io">ainchentmew2.github.io</a> is maintained by <a href="https://github.com/Ainchentmew2/">Ainchentmew2</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
+
