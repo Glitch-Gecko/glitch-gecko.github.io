@@ -1,15 +1,13 @@
 ---
 layout: page
 title: About
-tagline: A few more words about this theme
+tagline: A little information about me
 permalink: /about.html
 ref: about
 order: 0
 ---
 
-This is the _Cayman Blog_ Jekyll theme. You can find out more info about customizing this theme, as well as basic usage documentation, and source code at: [cayman-blog](https://github.com/lorepirri/cayman-blog)
-
-You can find the source code for _Jekyll_ at [jekyll](https://github.com/jekyll/jekyll)
+I'm a cyber security major with a passion for learning and improving my abilities in programming, and even though I'm just a freshman, I still am skilled and have experience in many languages, including Python, Autohotkey, HTML, CSS, Javascript, Java, C++, Lua, PHP, Bash, Ruby, VBScript, and Powershell
 
 
-[Go to the Home Page]({{ '/' | absolute_url }})
+[Back to Home Page]({{ '/' | absolute_url }})
