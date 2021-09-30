@@ -1,17 +1,17 @@
 ---
-layout: default
-title: "Ainchentmew2"
-description: "Welcome to my website!"
+#
+# Here you can change the text shown in the Home page before the Latest Posts section.
+#
+# Edit cayman-blog's home layout in _layouts instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+#
+layout: home
 ---
 
-# Welcome and Hello!
+Cayman Blog Theme is a clean, responsive blogging theme for Jekyll. It is inspired by the Cayman Theme for Github Pages, which can be greatly used for single projects but not as blogging platform.
 
-This is a website that I'll be using in the future to document my progress in my journey through learning cyber security, posting writeups for CTFs or other challenges, and also linking some of my personal projects.
+This theme has instead all you need to start today blogging with Jekyll, and no effort: pages, posts, few social buttons. Try loading this on mobile too.
 
-## About me
+Have a look at the Github page for more information.
 
-Want to learn more about me? Click [here](./about-me.html)!
-
-## Writeups
-
-[H@cktivitycon CTF](./writeup.html)
+You find this descriptive text in the `index.md` file, so you can change it, or remove it completely, according to your needs.
