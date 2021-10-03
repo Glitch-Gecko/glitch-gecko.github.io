@@ -22,20 +22,30 @@ In this post, I'm going to be detailing my thought process and how I found each 
 Nobody on my team seemed interested in trying this one, as it involved an audio file and none of us had headphones.
 Checking the file type, I found that "tsunami" was a .wav file, so I renamed it accordingly.
 
-![image](https://github.com/Ainchentmew2/ainchentmew2.github.io/blob/main/images/Tsunami2.png)
+![Tsunami1](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami2.png)
 
 I figured maybe there was something hidden in the visualization in the wave itself, so I downloaded it and opened it in sonic visualiser.
 
-![image](https://github.com/Ainchentmew2/ainchentmew2.github.io/blob/main/images/Tsunami3.png)
+![Tsunami2](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/blob/main/images/Tsunami3.png)
 
 I couldn't find anything right away, but I looked at the spectrogram view and zoomed in a little towards the end, and the flag was right there in plaintext!
 
-![image](https://github.com/Ainchentmew2/ainchentmew2.github.io/blob/main/images/Tsunami4.png)
+![Tsunami3](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/blob/main/images/Tsunami4.png)
 
 ## Bass 64
 #### Description: "It, uh... looks like someone bass-boosted this? Can you make any sense of it?"
 
-Downloading this file resulted in an ASCII text file with every letter represented as ASCII art. Based on the name and the hint, I assumed that it was encoded in base 64. Sure enough, I copied down the letters into a base 64 decoder, and got the flag!
+Reading this file gave quite a weird result.
+
+![Bass641](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/blob/main/images/Bass642.png)
+
+I wonder what happens when I zoom out the terminal...
+
+![Bass642](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/blob/main/images/Bass643.png)
+
+Based on the hint, I assumed this was encoded via base 64, and ran the string through a decoder, giving me the flag!
+
+![Bass643](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/blob/main/images/bass644.png)
 
 ## Target Practice
 #### Description: "Can you hit a moving target?"
