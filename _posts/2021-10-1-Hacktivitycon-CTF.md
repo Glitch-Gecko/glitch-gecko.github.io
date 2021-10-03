@@ -45,7 +45,7 @@ I wonder what happens when I zoom out the terminal...
 
 Based on the hint, I assumed this was encoded via base 64, and ran the string through a decoder, giving me the flag!
 
-![Bass643](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/bass644.png)
+![Bass643](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass644.png)
 
 ## Target Practice
 #### Description: "Can you hit a moving target?"
