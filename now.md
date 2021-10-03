@@ -19,4 +19,4 @@ Music is a big part of my life, and I was a bass clarinetist for eight years. I 
 # Investing
 When I have downtime, I try to spend my time researching and learning about investment strategies in the hopes that I'll be able to build up a nice retirement account for myself. I've been watching a lot of [CottonCandyTA](https://youtube.com/c/c0tt0nc4ndyTA) recently for technical analysis, for both stocks and cryptocurrency.
 
-[Go to the Home Page]({{ '/' | absolute_url }})
+[Back to Home Page]({{ '/' | absolute_url }})
