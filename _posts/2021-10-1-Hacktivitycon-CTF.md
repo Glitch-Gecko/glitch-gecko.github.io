@@ -10,14 +10,27 @@ Note: I'm still cleaning up the site so this is unfinished as of now.
 
 Before now, I've had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it'd be a great learning experience for me.
 
+
 I spent several hours researching and learning, in hopes of building up my abilities before the CTF. When it came time to start, I felt like I'd be a little useless and not have much to bring to the team, but it turned out that I actually solved seven challenges, netting  me just over 1100 points.
+
 
 In this post, I'm going to be detailing my thought process and how I found each flag, based on the order I completed them in.
 
 ## Tsunami
 #### Description: "Woah! It's a natural disaster! But something doesn't seem so natural about this big wave...
 
-Nobody on my team seemed interested in trying this one, as it involved an audio file and none of us had headphones. I figured maybe there was something hidden in the visualization in the wave itself, so I downloaded it and opened it in sonic visualiser. I couldn't find anything right away, but I looked at the spectrogram view and zoomed in a little towards the end, and the flag was right there in plaintext!
+Nobody on my team seemed interested in trying this one, as it involved an audio file and none of us had headphones.
+Checking the file type, I found that "tsunami" was a .wav file, so I renamed it accordingly.
+
+![image](https://github.com/Ainchentmew2/ainchentmew2.github.io/images/tsunami2.png)
+
+I figured maybe there was something hidden in the visualization in the wave itself, so I downloaded it and opened it in sonic visualiser.
+
+![image](https://github.com/Ainchentmew2/ainchentmew2.github.io/images/tsunami3.png)
+
+I couldn't find anything right away, but I looked at the spectrogram view and zoomed in a little towards the end, and the flag was right there in plaintext!
+
+![image](https://github.com/Ainchentmew2/ainchentmew2.github.io/images/tsunami4.png)
 
 ## Bass 64
 #### Description: "It, uh... looks like someone bass-boosted this? Can you make any sense of it?"
