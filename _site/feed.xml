@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-03T11:33:46-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ainchentmew2</title><subtitle>Welcome to my website!</subtitle><author><name>Ainchentmew2</name></author><entry><title type="html">H@cktivitycon CTF Writeups</title><link href="http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html" rel="alternate" type="text/html" title="H@cktivitycon CTF Writeups" /><published>2021-10-01T00:00:00-05:00</published><updated>2021-10-01T00:00:00-05:00</updated><id>http://localhost:4000/2021/10/01/Hacktivitycon-CTF</id><content type="html" xml:base="http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html">&lt;p&gt;Note: I’m still cleaning up the site so this is unfinished as of now.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-03T11:47:29-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ainchentmew2</title><subtitle>Welcome to my website!</subtitle><author><name>Ainchentmew2</name></author><entry><title type="html">H@cktivitycon CTF Writeups</title><link href="http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html" rel="alternate" type="text/html" title="H@cktivitycon CTF Writeups" /><published>2021-10-01T00:00:00-05:00</published><updated>2021-10-01T00:00:00-05:00</updated><id>http://localhost:4000/2021/10/01/Hacktivitycon-CTF</id><content type="html" xml:base="http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html">&lt;p&gt;Note: I’m still cleaning up the site so this is unfinished as of now.&lt;/p&gt;
 
 &lt;h1 id=&quot;hcktivitycon-ctf&quot;&gt;H@cktivitycon CTF&lt;/h1&gt;
 
@@ -14,35 +14,45 @@
 &lt;p&gt;Nobody on my team seemed interested in trying this one, as it involved an audio file and none of us had headphones.
 Checking the file type, I found that “tsunami” was a .wav file, so I renamed it accordingly.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami2.png&quot; alt=&quot;Tsunami1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami2.png&quot; alt=&quot;Tsunami 1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I figured maybe there was something hidden in the visualization in the wave itself, so I downloaded it and opened it in sonic visualiser.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami3.png&quot; alt=&quot;Tsunami2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami3.png&quot; alt=&quot;Tsunami 2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I couldn’t find anything right away, but I looked at the spectrogram view and zoomed in a little towards the end, and the flag was right there in plaintext!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami4.png&quot; alt=&quot;Tsunami3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami4.png&quot; alt=&quot;Tsunami 3&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;bass-64&quot;&gt;Bass 64&lt;/h2&gt;
 &lt;h4 id=&quot;description-it-uh-looks-like-someone-bass-boosted-this-can-you-make-any-sense-of-it&quot;&gt;Description: “It, uh… looks like someone bass-boosted this? Can you make any sense of it?”&lt;/h4&gt;
 
 &lt;p&gt;Reading this file gave quite a weird result.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass642.png&quot; alt=&quot;Bass641&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass642.png&quot; alt=&quot;Bass64 1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I wonder what happens when I zoom out the terminal…&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass643.png&quot; alt=&quot;Bass642&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass643.png&quot; alt=&quot;Bass64 2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Based on the hint, I assumed this was encoded via base 64, and ran the string through a decoder, giving me the flag!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/bass644.png&quot; alt=&quot;Bass643&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass644.png&quot; alt=&quot;Bass64 3&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;target-practice&quot;&gt;Target Practice&lt;/h2&gt;
 &lt;h4 id=&quot;description-can-you-hit-a-moving-target&quot;&gt;Description: “Can you hit a moving target?”&lt;/h4&gt;
 
-&lt;p&gt;This one was a gif that looked a little like a target with vibrating dots on the outside of the target. I split apart the frames of the gif, and noticed that frame 16 looked a little odd compared to the rest, based on the top left corner sticking out. I wondered what I could do with the image, and realized it looked a little like a QR code. Upon searching for circular QR codes, I found out that the image was actually a Maxi code, and scanning it gave the flag!&lt;/p&gt;
+&lt;p&gt;This one was a gif that looked a little like a target with vibrating dots on the outside of the target.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/target_practice.gif&quot; alt=&quot;Target Practice&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I noticed that frame 16 looked a little odd compared to the rest, based on the top left corner sticking out, so I split apart the frames and extracted frame 16.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Target_Practice2.gif&quot; alt=&quot;Target Practice 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I wondered what I could do with the image, and realized it looked a little like a QR code. Upon searching for circular QR codes, I found out that the image was actually a Maxi code, and scanning it gave the flag!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Target_Practice3.png&quot; alt=&quot;Target Practice 3&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;butter-overflow&quot;&gt;Butter Overflow&lt;/h2&gt;
 &lt;h4 id=&quot;description-can-you-overflow-this-right&quot;&gt;Description: “Can you overflow this right?”&lt;/h4&gt;</content><author><name>Ainchentmew2</name></author><summary type="html">Note: I’m still cleaning up the site so this is unfinished as of now.</summary></entry></feed>

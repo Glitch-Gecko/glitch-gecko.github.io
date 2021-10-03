@@ -22,35 +22,45 @@ In this post, I'm going to be detailing my thought process and how I found each 
 Nobody on my team seemed interested in trying this one, as it involved an audio file and none of us had headphones.
 Checking the file type, I found that "tsunami" was a .wav file, so I renamed it accordingly.
 
-![Tsunami1](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami2.png)
+![Tsunami 1](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami2.png)
 
 I figured maybe there was something hidden in the visualization in the wave itself, so I downloaded it and opened it in sonic visualiser.
 
-![Tsunami2](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami3.png)
+![Tsunami 2](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami3.png)
 
 I couldn't find anything right away, but I looked at the spectrogram view and zoomed in a little towards the end, and the flag was right there in plaintext!
 
-![Tsunami3](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami4.png)
+![Tsunami 3](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami4.png)
 
 ## Bass 64
 #### Description: "It, uh... looks like someone bass-boosted this? Can you make any sense of it?"
 
 Reading this file gave quite a weird result.
 
-![Bass641](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass642.png)
+![Bass64 1](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass642.png)
 
 I wonder what happens when I zoom out the terminal...
 
-![Bass642](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass643.png)
+![Bass64 2](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass643.png)
 
 Based on the hint, I assumed this was encoded via base 64, and ran the string through a decoder, giving me the flag!
 
-![Bass643](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass644.png)
+![Bass64 3](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass644.png)
 
 ## Target Practice
 #### Description: "Can you hit a moving target?"
 
-This one was a gif that looked a little like a target with vibrating dots on the outside of the target. I split apart the frames of the gif, and noticed that frame 16 looked a little odd compared to the rest, based on the top left corner sticking out. I wondered what I could do with the image, and realized it looked a little like a QR code. Upon searching for circular QR codes, I found out that the image was actually a Maxi code, and scanning it gave the flag!
+This one was a gif that looked a little like a target with vibrating dots on the outside of the target.
+
+![Target Practice](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/target_practice.gif)
+
+I noticed that frame 16 looked a little odd compared to the rest, based on the top left corner sticking out, so I split apart the frames and extracted frame 16. 
+
+![Target Practice 2](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Target_Practice2.gif)
+
+I wondered what I could do with the image, and realized it looked a little like a QR code. Upon searching for circular QR codes, I found out that the image was actually a Maxi code, and scanning it gave the flag!
+
+![Target Practice 3](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Target_Practice3.png)
 
 ## Butter Overflow
 #### Description: "Can you overflow this right?"
