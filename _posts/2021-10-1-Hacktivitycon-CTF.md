@@ -4,8 +4,6 @@ title: "H@cktivitycon CTF Writeups"
 author: Ainchentmew2
 ---
 
-# H@cktivitycon CTF
-
 Before now, I've had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it'd be a great learning experience for me.
 
 
