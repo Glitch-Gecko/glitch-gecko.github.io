@@ -15,7 +15,7 @@ When it came time to start, I felt like I'd be a little useless and not have muc
 In this post, I'm going to be detailing my thought process and how I found each flag, based on the order I completed them in.
 
 ## Tsunami
-#### Description: "Woah! It's a natural disaster! But something doesn't seem so natural about this big wave...
+#### Description: "Woah! It's a natural disaster! But something doesn't seem so natural about this big wave..."
 
 Nobody on my team seemed interested in trying this one, as it involved an audio file and none of us had headphones.
 Checking the file type, I found that "tsunami" was a .wav file, so I renamed it accordingly.
