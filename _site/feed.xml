@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-04T15:57:30-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ainchentmew2</title><subtitle>Welcome to my website!</subtitle><author><name>Ainchentmew2</name></author><entry><title type="html">H@cktivitycon CTF Writeups</title><link href="http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html" rel="alternate" type="text/html" title="H@cktivitycon CTF Writeups" /><published>2021-10-01T00:00:00-05:00</published><updated>2021-10-01T00:00:00-05:00</updated><id>http://localhost:4000/2021/10/01/Hacktivitycon-CTF</id><content type="html" xml:base="http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html">&lt;h1 id=&quot;hcktivitycon-ctf&quot;&gt;H@cktivitycon CTF&lt;/h1&gt;
-
-&lt;p&gt;Before now, I’ve had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it’d be a great learning experience for me.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-14T10:33:48-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ainchentmew2</title><subtitle>Welcome to my website!</subtitle><author><name>Ainchentmew2</name></author><entry><title type="html">H@cktivitycon CTF Writeups</title><link href="http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html" rel="alternate" type="text/html" title="H@cktivitycon CTF Writeups" /><published>2021-10-01T00:00:00-05:00</published><updated>2021-10-01T00:00:00-05:00</updated><id>http://localhost:4000/2021/10/01/Hacktivitycon-CTF</id><content type="html" xml:base="http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html">&lt;p&gt;Before now, I’ve had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it’d be a great learning experience for me.&lt;/p&gt;
 
 &lt;p&gt;I spent several hours researching and learning, in hopes of building up my abilities before the CTF.&lt;/p&gt;
 
@@ -9,7 +7,7 @@
 &lt;p&gt;In this post, I’m going to be detailing my thought process and how I found each flag, based on the order I completed them in.&lt;/p&gt;
 
 &lt;h2 id=&quot;tsunami&quot;&gt;Tsunami&lt;/h2&gt;
-&lt;h4 id=&quot;description-woah-its-a-natural-disaster-but-something-doesnt-seem-so-natural-about-this-big-wave&quot;&gt;Description: “Woah! It’s a natural disaster! But something doesn’t seem so natural about this big wave…&lt;/h4&gt;
+&lt;h4 id=&quot;description-woah-its-a-natural-disaster-but-something-doesnt-seem-so-natural-about-this-big-wave&quot;&gt;Description: “Woah! It’s a natural disaster! But something doesn’t seem so natural about this big wave…”&lt;/h4&gt;
 
 &lt;p&gt;Nobody on my team seemed interested in trying this one, as it involved an audio file and none of us had headphones.
 Checking the file type, I found that “tsunami” was a .wav file, so I renamed it accordingly.&lt;/p&gt;
@@ -183,4 +181,4 @@ I wasn’t too confident in this solution, but I tried entering a new line with 
 
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Hacktivity.png&quot; alt=&quot;Congrats!&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://ainchentmew2.github.io&quot;&gt;Back to Home Page&lt;/a&gt;&lt;/p&gt;</content><author><name>Ainchentmew2</name></author><summary type="html">H@cktivitycon CTF</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://ainchentmew2.github.io&quot;&gt;Back to Home Page&lt;/a&gt;&lt;/p&gt;</content><author><name>Ainchentmew2</name></author><summary type="html">Before now, I’ve had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it’d be a great learning experience for me.</summary></entry></feed>
