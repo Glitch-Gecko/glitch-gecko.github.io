@@ -1,4 +1,5 @@
 title: Ainchentmew2
+tagline: A Cybersecurity student's blog
 description: Welcome to my website!
 show_downloads: false
 
@@ -25,6 +26,7 @@ github_username: Ainchentmew2
 plugins:
   - jekyll-target-blank
   - jekyll-feed
+  - jekyll-seo-tag
 
 target-blank:
     rel: nofollow
