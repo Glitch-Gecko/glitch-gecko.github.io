@@ -13,6 +13,9 @@ Currently I'm a freshman in college going for a degree in cybersecurity, taking 
 # Hobbies
 I have a lot of hobbies that I'm very interested in, and recently I've been spending a lot of time slacklining. I love being in water, and was a competetive swimmer and diver back in high school. I play a lot of video games too, and have recently started playing League of Legends.
 
+# Work
+I've been a lifeguard for the past three years, for two different employers. I currently work for a park district, working at an outdoor pool over the summer and an indoor lap pool for the rest of the year.
+
 # Music
 Music is a big part of my life, and I was a bass clarinetist for eight years. I don't own a bass clarinet, so recently I've been learning piano, and I also occasionally play flute or guitar.
 
