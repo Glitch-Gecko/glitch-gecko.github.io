@@ -2,6 +2,7 @@ title: Ainchentmew2
 tagline: A Cybersecurity student's blog
 description: Welcome to my website!
 show_downloads: false
+site_favicon: favicon.ico
 
 baseurl: "/" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://ainchentmew2.github.io" # change this to the base hostname & protocol for your site
@@ -22,6 +23,7 @@ username: Ainchentmew2
 user_title: Ainchentmew2
 email: nvformella@gmail.com
 github_username: Ainchentmew2
+
   
 plugins:
   - jekyll-target-blank
