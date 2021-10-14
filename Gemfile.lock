@@ -49,6 +49,10 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+    jekyll-seo-tag (2.7.1)
+      jekyll (>= 3.8, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-target-blank (2.0.0)
       jekyll (>= 3.0, < 5.0)
       nokogiri (~> 1.10)
@@ -115,6 +119,8 @@ PLATFORMS
 DEPENDENCIES
   html-proofer (~> 3.0)
   jekyll-feed
+  jekyll-seo-tag
+  jekyll-sitemap
   jekyll-theme-cayman-blog!
   kramdown-parser-gfm
   rubocop (~> 0.50)

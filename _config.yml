@@ -29,6 +29,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 target-blank:
     rel: nofollow

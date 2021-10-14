@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-   <url>
-
-	   <loc>https://ainchentmew2.github.io/</loc>
-
-   </url>
-
-
-   <url>
-
-	   <loc>https://ainchentmew2.github.io/now</loc>
-
-   </url>
-   
-   <url>
-
-	   <loc>https://ainchentmew2.github.io/about</loc>
-
-   </url>
-
-   <url>
-
-	   <loc>https://ainchentmew2.github.io/contact</loc>
-
-   </url>
-</urlset> 
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://ainchentmew2.github.io/2021/10/01/Hacktivitycon-CTF.html</loc>
+<lastmod>2021-10-01T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://ainchentmew2.github.io/about.html</loc>
+</url>
+<url>
+<loc>http://ainchentmew2.github,io/contact.html</loc>
+</url>
+<url>
+<loc>http://ainchentmew2.github.io/</loc>
+</url>
+<url>
+<loc>http://ainchentmew2.github.io/now.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/google49682ca00586c630.html</loc>
+<lastmod>2021-10-04T16:00:01-05:00</lastmod>
+</url>
+</urlset>
