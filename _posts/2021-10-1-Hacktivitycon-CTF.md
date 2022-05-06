@@ -74,6 +74,21 @@ I assumed I needed to overflow the buffer, so I did what any sane person would d
 
 Success!
 
+## 2ez
+#### Description: "These warmups are just too easy! This one definitely starts that way, at least!"
+
+For this challenge, you're simply given a data file that cannot be opened.
+
+Opening this with the hex editor, we find that the file is a .jfif file that is missing the proper header.
+
+![2ez](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/2ez2.png)
+
+After doing a little bit of research, I found that the proper header for a .jfif file is ```FF D8 FF E0```
+
+I simply added this header to the image, allowing me to open it for the flag!
+
+![2ez2](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/2ez3.png)
+
 ## Integrity
 #### Description: "My school was trying to teach people about the CIA triad so they made all these dumb example applications... as if they know anything about information security. Supposedly they learned their lesson and tried to make this one more secure. Can you prove it is still vulnerable?"
 
