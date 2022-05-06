@@ -33,7 +33,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="H@cktivitycon CTF Writeups" />
 <script type="application/ld+json">
-{"description":"Before now, I’ve had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it’d be a great learning experience for me.","@type":"BlogPosting","url":"http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html","headline":"H@cktivitycon CTF Writeups","dateModified":"2021-10-01T00:00:00-05:00","datePublished":"2021-10-01T00:00:00-05:00","author":{"@type":"Person","name":"Ainchentmew2"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html"},"@context":"https://schema.org"}</script>
+{"description":"Before now, I’ve had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it’d be a great learning experience for me.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html"},"@type":"BlogPosting","url":"http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html","headline":"H@cktivitycon CTF Writeups","dateModified":"2021-10-01T00:00:00-05:00","datePublished":"2021-10-01T00:00:00-05:00","author":{"@type":"Person","name":"Ainchentmew2"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     
@@ -219,6 +219,21 @@ Connecting to the port, you’re asked a simple question: “How many bytes does
 <p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Butter_Overflow2.png" alt="Butter Overflow 2"></p>
 
 <p>Success!</p>
+
+<h2 id="2ez">2ez</h2>
+<h4 id="description-these-warmups-are-just-too-easy-this-one-definitely-starts-that-way-at-least">Description: “These warmups are just too easy! This one definitely starts that way, at least!”</h4>
+
+<p>For this challenge, you’re simply given a data file that cannot be opened.</p>
+
+<p>Opening this with the hex editor, we find that the file is a .jfif file that is missing the proper header.</p>
+
+<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/2ez2.png" alt="2ez"></p>
+
+<p>After doing a little bit of research, I found that the proper header for a .jfif file is <code class="language-plaintext highlighter-rouge">FF D8 FF E0</code></p>
+
+<p>I simply added this header to the image, allowing me to open it for the flag!</p>
+
+<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/2ez3.png" alt="2ez2"></p>
 
 <h2 id="integrity">Integrity</h2>
 <h4 id="description-my-school-was-trying-to-teach-people-about-the-cia-triad-so-they-made-all-these-dumb-example-applications-as-if-they-know-anything-about-information-security-supposedly-they-learned-their-lesson-and-tried-to-make-this-one-more-secure-can-you-prove-it-is-still-vulnerable">Description: “My school was trying to teach people about the CIA triad so they made all these dumb example applications… as if they know anything about information security. Supposedly they learned their lesson and tried to make this one more secure. Can you prove it is still vulnerable?”</h4>

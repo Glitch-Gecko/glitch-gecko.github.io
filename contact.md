@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Contact
-tagline: 
+tagline: Feel free to contact me!
 ref: contact
 order: 1
 ---
+
+If you want to contact me for any reason, you can do so through either discord at ainchentmew2#8588, or with the following email contact form:
 
 <form
   action="https://formspree.io/f/xpzkeavl"

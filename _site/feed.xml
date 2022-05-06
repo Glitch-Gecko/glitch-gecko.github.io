@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-03T09:14:04-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ainchentmew2</title><subtitle>Welcome to my website!</subtitle><author><name>Ainchentmew2</name></author><entry><title type="html">H@cktivitycon CTF Writeups</title><link href="http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html" rel="alternate" type="text/html" title="H@cktivitycon CTF Writeups" /><published>2021-10-01T00:00:00-05:00</published><updated>2021-10-01T00:00:00-05:00</updated><id>http://localhost:4000/2021/10/01/Hacktivitycon-CTF</id><content type="html" xml:base="http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html">&lt;p&gt;Before now, I’ve had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it’d be a great learning experience for me.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-06T08:40:12-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ainchentmew2</title><subtitle>Welcome to my website!</subtitle><author><name>Ainchentmew2</name></author><entry><title type="html">H@cktivitycon CTF Writeups</title><link href="http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html" rel="alternate" type="text/html" title="H@cktivitycon CTF Writeups" /><published>2021-10-01T00:00:00-05:00</published><updated>2021-10-01T00:00:00-05:00</updated><id>http://localhost:4000/2021/10/01/Hacktivitycon-CTF</id><content type="html" xml:base="http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html">&lt;p&gt;Before now, I’ve had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it’d be a great learning experience for me.&lt;/p&gt;
 
 &lt;p&gt;I spent several hours researching and learning, in hopes of building up my abilities before the CTF.&lt;/p&gt;
 
@@ -65,6 +65,21 @@ Connecting to the port, you’re asked a simple question: “How many bytes does
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Butter_Overflow2.png&quot; alt=&quot;Butter Overflow 2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Success!&lt;/p&gt;
+
+&lt;h2 id=&quot;2ez&quot;&gt;2ez&lt;/h2&gt;
+&lt;h4 id=&quot;description-these-warmups-are-just-too-easy-this-one-definitely-starts-that-way-at-least&quot;&gt;Description: “These warmups are just too easy! This one definitely starts that way, at least!”&lt;/h4&gt;
+
+&lt;p&gt;For this challenge, you’re simply given a data file that cannot be opened.&lt;/p&gt;
+
+&lt;p&gt;Opening this with the hex editor, we find that the file is a .jfif file that is missing the proper header.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/2ez2.png&quot; alt=&quot;2ez&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After doing a little bit of research, I found that the proper header for a .jfif file is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FF D8 FF E0&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I simply added this header to the image, allowing me to open it for the flag!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/2ez3.png&quot; alt=&quot;2ez2&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;integrity&quot;&gt;Integrity&lt;/h2&gt;
 &lt;h4 id=&quot;description-my-school-was-trying-to-teach-people-about-the-cia-triad-so-they-made-all-these-dumb-example-applications-as-if-they-know-anything-about-information-security-supposedly-they-learned-their-lesson-and-tried-to-make-this-one-more-secure-can-you-prove-it-is-still-vulnerable&quot;&gt;Description: “My school was trying to teach people about the CIA triad so they made all these dumb example applications… as if they know anything about information security. Supposedly they learned their lesson and tried to make this one more secure. Can you prove it is still vulnerable?”&lt;/h4&gt;

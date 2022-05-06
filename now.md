@@ -22,7 +22,7 @@ I have a lot of hobbies that I'm very interested in, and recently I've been spen
 Music is a big part of my life, and I was a bass clarinetist for eight years. I don't own a bass clarinet, so recently I've been learning piano, and I also occasionally play flute or guitar.
 
 # Art
-While studying abroad in Rome, I decided to make use of my Samsung Note 20 and I started working on digital art. My skills since then have developed and improved, and I now spend some of my free time drawing, sketching, or painting, both physically and digitally. You can view some of my art on my twitter or my other website (neither of which has been created yet).
+While studying abroad in Rome, I decided to make use of my Samsung Note 20 and I started working on digital art. My skills since then have developed and improved, and I now spend some of my free time drawing, sketching, or painting, both physically and digitally. You can view some of my art on my twitter or my other website (neither of which have been created yet).
 
 # XR
 One of my biggest passions is XR, as I see it as the future of the world. I try to stay very up to date on upcoming VR and AR tech, and spend much of my money on new or experimental hardware. My next project will be building prototype 4 of the [LucidGloves](https://github.com/LucidVR/lucidgloves), for a more realistic experience in VR.

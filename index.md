@@ -9,4 +9,4 @@ layout: home
 ---
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
-This is a website that I'll be using in the future to document my progress in my journey through learning cyber security, posting writeups for CTFs or other challenges, and also linking some of my personal projects.
+This is a website that I'll be using in the future to document my progress in my journey through learning cyber security, posting writeups for CTFs or other challenges, and discussing some of my personal projects and other miscellaneous topics.
