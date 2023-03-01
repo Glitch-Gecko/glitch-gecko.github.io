@@ -10,7 +10,7 @@ order: 2
 # Education
 Currently I'm a sophomore in college going for a degree in cybersecurity. Because of my love for mathematics and computing, I'm considering going for a double major in mathematics and cybersecurity, with a minor in comp sci.
 
-I'm largely self-taught when it comes to cybersecurity, as I have yet to actually take a course relating to the field. Most of my experience comes from tryhackme, various CTFs I've done, and from researching and practicing on my own.
+I'm largely self-taught when it comes to cybersecurity, despite taking several courses in the field, such as Enterprise Security, Programming for Penetration Testing, and Cybersecurity Policy. Most of my experience comes from tryhackme, various CTFs I've done, and from researching and practicing on my own.
 
 # Work
 I've been a lifeguard for the past four years, for two different employers. I currently work for a park district as head guard, working at an outdoor pool over the summer and an indoor lap pool for the rest of the year.
