@@ -30,45 +30,45 @@
 &lt;p&gt;Nobody on my team seemed interested in trying this one, as it involved an audio file and none of us had headphones.
 Checking the file type, I found that “tsunami” was a .wav file, so I renamed it accordingly.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Tsunami2.png&quot; alt=&quot;Tsunami 1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Tsunami2.png&quot; alt=&quot;Tsunami 1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I figured maybe there was something hidden in the visualization in the wave itself, so I tried opening it in sonic visualiser.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Tsunami3.png&quot; alt=&quot;Tsunami 2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Tsunami3.png&quot; alt=&quot;Tsunami 2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I couldn’t find anything right away, but I looked at the spectrogram view and zoomed in a little towards the end, and the flag was right there in plaintext!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Tsunami4.png&quot; alt=&quot;Tsunami 3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Tsunami4.png&quot; alt=&quot;Tsunami 3&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;bass-64&quot;&gt;Bass 64&lt;/h2&gt;
 &lt;h4 id=&quot;description-it-uh-looks-like-someone-bass-boosted-this-can-you-make-any-sense-of-it&quot;&gt;Description: “It, uh… looks like someone bass-boosted this? Can you make any sense of it?”&lt;/h4&gt;
 
 &lt;p&gt;Reading this file gave quite a weird result.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Bass642.png&quot; alt=&quot;Bass64 1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Bass642.png&quot; alt=&quot;Bass64 1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I wonder what happens when I zoom out the terminal…&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Bass643.png&quot; alt=&quot;Bass64 2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Bass643.png&quot; alt=&quot;Bass64 2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Based on the hint, I assumed this was encoded via base 64, and ran the string through a decoder, giving me the flag!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Bass644.png&quot; alt=&quot;Bass64 3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Bass644.png&quot; alt=&quot;Bass64 3&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;target-practice&quot;&gt;Target Practice&lt;/h2&gt;
 &lt;h4 id=&quot;description-can-you-hit-a-moving-target&quot;&gt;Description: “Can you hit a moving target?”&lt;/h4&gt;
 
 &lt;p&gt;This one was a gif that looked a little like a target with vibrating dots on the outside of the target.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/target_practice.gif&quot; alt=&quot;Target Practice&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/target_practice.gif&quot; alt=&quot;Target Practice&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I noticed that frame 16 looked a little odd compared to the rest, based on the top left corner sticking out, so I split apart the frames and extracted frame 16.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Target_Practice2.gif&quot; alt=&quot;Target Practice 2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Target_Practice2.gif&quot; alt=&quot;Target Practice 2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I wondered what I could do with the image, and realized it looked a little like a QR code. Upon searching for circular QR codes, I found out that the image was actually a Maxi code, and scanning it gave the flag!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Target_Practice3.png&quot; alt=&quot;Target Practice 3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Target_Practice3.png&quot; alt=&quot;Target Practice 3&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;butter-overflow&quot;&gt;Butter Overflow&lt;/h2&gt;
 &lt;h4 id=&quot;description-can-you-overflow-this-right&quot;&gt;Description: “Can you overflow this right?”&lt;/h4&gt;
@@ -76,11 +76,11 @@ Checking the file type, I found that “tsunami” was a .wav file, so I renamed
 &lt;p&gt;This one was a little fun to me.
 Connecting to the port, you’re asked a simple question: “How many bytes does it take to overflow this buffer?” Upon any answer, you’re immediately disconnected from the port.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Butter_Overflow3.png&quot; alt=&quot;Butter Overflow&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Butter_Overflow3.png&quot; alt=&quot;Butter Overflow&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I assumed I needed to overflow the buffer, so I did what any sane person would do, and held the letter ‘a’ for a minute or so.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Butter_Overflow2.png&quot; alt=&quot;Butter Overflow 2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Butter_Overflow2.png&quot; alt=&quot;Butter Overflow 2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Success!&lt;/p&gt;
 
@@ -91,20 +91,20 @@ Connecting to the port, you’re asked a simple question: “How many bytes does
 
 &lt;p&gt;Opening this with the hex editor, we find that the file is a .jfif file that is missing the proper header.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/2ez2.png&quot; alt=&quot;2ez&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/2ez2.png&quot; alt=&quot;2ez&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;After doing a little bit of research, I found that the proper header for a .jfif file is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FF D8 FF E0&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;I simply added this header to the image, allowing me to open it for the flag!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/2ez3.png&quot; alt=&quot;2ez2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/2ez3.png&quot; alt=&quot;2ez2&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;integrity&quot;&gt;Integrity&lt;/h2&gt;
 &lt;h4 id=&quot;description-my-school-was-trying-to-teach-people-about-the-cia-triad-so-they-made-all-these-dumb-example-applications-as-if-they-know-anything-about-information-security-supposedly-they-learned-their-lesson-and-tried-to-make-this-one-more-secure-can-you-prove-it-is-still-vulnerable&quot;&gt;Description: “My school was trying to teach people about the CIA triad so they made all these dumb example applications… as if they know anything about information security. Supposedly they learned their lesson and tried to make this one more secure. Can you prove it is still vulnerable?”&lt;/h4&gt;
 
 &lt;p&gt;This challenge involved a web application to verify the SHA256 hash of any file.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Integrity2.png&quot; alt=&quot;Integrity&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Integrity2.png&quot; alt=&quot;Integrity&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This one is basically a sequel to the challenge “Confidentiality,” which was solved by one of my teammates.&lt;/p&gt;
 
@@ -113,18 +113,18 @@ Connecting to the port, you’re asked a simple question: “How many bytes does
 &lt;p&gt;My research brought me towards using burpsuite to injecting my own code into their application.
 I wasn’t too confident in this solution, but I tried entering a new line with the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cat flag.txt&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Integrity3.png&quot; alt=&quot;Integrity 2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Integrity3.png&quot; alt=&quot;Integrity 2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Surprisingly enough, this worked perfectly!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Integrity4.png&quot; alt=&quot;Integrity 3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Integrity4.png&quot; alt=&quot;Integrity 3&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;availability&quot;&gt;Availability&lt;/h2&gt;
 &lt;h4 id=&quot;description-my-school-was-trying-to-teach-people-about-the-cia-triad-so-they-made-all-these-dumb-example-applications-as-if-they-know-anything-about-information-security-they-said-they-fixed-the-bug-from-the-last-app-but-they-also-said-they-knew-they-went-overboard-with-the-filtered-characters-so-they-loosened-things-up-a-bit-can-you-hack-it&quot;&gt;Description: “My school was trying to teach people about the CIA triad so they made all these dumb example applications… as if they know anything about information security. They said they fixed the bug from the last app, but they also said they knew they went overboard with the filtered characters, so they loosened things up a bit. Can you hack it?”&lt;/h4&gt;
 
 &lt;p&gt;This one was honestly the most enjoyable out of all the challenges. It was basically the same thing as the Integrity, with a web application that pings a port and gives outputs the success of the ping.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Availability2.png&quot; alt=&quot;Availability&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Availability2.png&quot; alt=&quot;Availability&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I tried the same thing I did with Intregrity, but instead of displaying the flag, it just gave me a successful ping.&lt;/p&gt;
 
@@ -152,7 +152,7 @@ I wasn’t too confident in this solution, but I tried entering a new line with 
 
 &lt;p&gt;And here was the output:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Availability3.png&quot; alt=&quot;Availability 2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Availability3.png&quot; alt=&quot;Availability 2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Knowing the characters in the flag can now allow me to figure out exactly what the flag is, using a very similar script:&lt;/p&gt;
 
@@ -175,7 +175,7 @@ I wasn’t too confident in this solution, but I tried entering a new line with 
 
 &lt;p&gt;And here was the output:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Availability4.png&quot; alt=&quot;Availability 3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Availability4.png&quot; alt=&quot;Availability 3&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This means that the flag ends with the sequence ‘bf60’&lt;/p&gt;
 
@@ -202,7 +202,7 @@ I wasn’t too confident in this solution, but I tried entering a new line with 
 
 &lt;p&gt;And here was the output:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Availability6.png&quot; alt=&quot;Availability 3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Availability6.png&quot; alt=&quot;Availability 3&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;And that was the correct flag!&lt;/p&gt;
 
@@ -212,6 +212,6 @@ I wasn’t too confident in this solution, but I tried entering a new line with 
 
 &lt;p&gt;I’m definitely looking forward to the next one!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Hacktivity.png&quot; alt=&quot;Congrats!&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Hacktivity.png&quot; alt=&quot;Congrats!&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://Glitch-Gecko.github.io&quot;&gt;Back to Home Page&lt;/a&gt;&lt;/p&gt;</content><author><name>GlitchGecko</name></author><summary type="html">Before now, I’ve had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it’d be a great learning experience for me.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://glitch-gecko.github.io&quot;&gt;Back to Home Page&lt;/a&gt;&lt;/p&gt;</content><author><name>GlitchGecko</name></author><summary type="html">Before now, I’ve had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it’d be a great learning experience for me.</summary></entry></feed>
