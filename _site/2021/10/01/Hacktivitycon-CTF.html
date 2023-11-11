@@ -21,7 +21,7 @@
 <title>H@cktivitycon CTF Writeups | Ainchentmew2</title>
 <meta name="generator" content="Jekyll v3.9.1" />
 <meta property="og:title" content="H@cktivitycon CTF Writeups" />
-<meta name="author" content="Ainchentmew2" />
+<meta name="author" content="GlitchGecko" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Before now, I’ve had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it’d be a great learning experience for me." />
 <meta property="og:description" content="Before now, I’ve had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it’d be a great learning experience for me." />
@@ -33,7 +33,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="H@cktivitycon CTF Writeups" />
 <script type="application/ld+json">
-{"headline":"H@cktivitycon CTF Writeups","dateModified":"2021-10-01T00:00:00-05:00","datePublished":"2021-10-01T00:00:00-05:00","@type":"BlogPosting","description":"Before now, I’ve had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it’d be a great learning experience for me.","url":"http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html","author":{"@type":"Person","name":"Ainchentmew2"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html"},"@context":"https://schema.org"}</script>
+{"datePublished":"2021-10-01T00:00:00-05:00","author":{"@type":"Person","name":"GlitchGecko"},"dateModified":"2021-10-01T00:00:00-05:00","description":"Before now, I’ve had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it’d be a great learning experience for me.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html"},"url":"http://localhost:4000/2021/10/01/Hacktivitycon-CTF.html","@type":"BlogPosting","headline":"H@cktivitycon CTF Writeups","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     
@@ -128,7 +128,7 @@
                 </time>
                 
                 
-                • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Ainchentmew2</span></span>
+                • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">GlitchGecko</span></span>
                 
             </h2>
             
@@ -147,7 +147,7 @@
         Oct 1, 2021
       </time>
       
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Ainchentmew2</span></span>
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">GlitchGecko</span></span>
       </p>
   </header> -->
 
@@ -166,45 +166,45 @@
 <p>Nobody on my team seemed interested in trying this one, as it involved an audio file and none of us had headphones.
 Checking the file type, I found that “tsunami” was a .wav file, so I renamed it accordingly.</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami2.png" alt="Tsunami 1"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Tsunami2.png" alt="Tsunami 1"></p>
 
 <p>I figured maybe there was something hidden in the visualization in the wave itself, so I tried opening it in sonic visualiser.</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami3.png" alt="Tsunami 2"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Tsunami3.png" alt="Tsunami 2"></p>
 
 <p>I couldn’t find anything right away, but I looked at the spectrogram view and zoomed in a little towards the end, and the flag was right there in plaintext!</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami4.png" alt="Tsunami 3"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Tsunami4.png" alt="Tsunami 3"></p>
 
 <h2 id="bass-64">Bass 64</h2>
 <h4 id="description-it-uh-looks-like-someone-bass-boosted-this-can-you-make-any-sense-of-it">Description: “It, uh… looks like someone bass-boosted this? Can you make any sense of it?”</h4>
 
 <p>Reading this file gave quite a weird result.</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass642.png" alt="Bass64 1"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Bass642.png" alt="Bass64 1"></p>
 
 <p>I wonder what happens when I zoom out the terminal…</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass643.png" alt="Bass64 2"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Bass643.png" alt="Bass64 2"></p>
 
 <p>Based on the hint, I assumed this was encoded via base 64, and ran the string through a decoder, giving me the flag!</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass644.png" alt="Bass64 3"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Bass644.png" alt="Bass64 3"></p>
 
 <h2 id="target-practice">Target Practice</h2>
 <h4 id="description-can-you-hit-a-moving-target">Description: “Can you hit a moving target?”</h4>
 
 <p>This one was a gif that looked a little like a target with vibrating dots on the outside of the target.</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/target_practice.gif" alt="Target Practice"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/target_practice.gif" alt="Target Practice"></p>
 
 <p>I noticed that frame 16 looked a little odd compared to the rest, based on the top left corner sticking out, so I split apart the frames and extracted frame 16.</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Target_Practice2.gif" alt="Target Practice 2"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Target_Practice2.gif" alt="Target Practice 2"></p>
 
 <p>I wondered what I could do with the image, and realized it looked a little like a QR code. Upon searching for circular QR codes, I found out that the image was actually a Maxi code, and scanning it gave the flag!</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Target_Practice3.png" alt="Target Practice 3"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Target_Practice3.png" alt="Target Practice 3"></p>
 
 <h2 id="butter-overflow">Butter Overflow</h2>
 <h4 id="description-can-you-overflow-this-right">Description: “Can you overflow this right?”</h4>
@@ -212,11 +212,11 @@ Checking the file type, I found that “tsunami” was a .wav file, so I renamed
 <p>This one was a little fun to me.
 Connecting to the port, you’re asked a simple question: “How many bytes does it take to overflow this buffer?” Upon any answer, you’re immediately disconnected from the port.</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Butter_Overflow3.png" alt="Butter Overflow"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Butter_Overflow3.png" alt="Butter Overflow"></p>
 
 <p>I assumed I needed to overflow the buffer, so I did what any sane person would do, and held the letter ‘a’ for a minute or so.</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Butter_Overflow2.png" alt="Butter Overflow 2"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Butter_Overflow2.png" alt="Butter Overflow 2"></p>
 
 <p>Success!</p>
 
@@ -227,20 +227,20 @@ Connecting to the port, you’re asked a simple question: “How many bytes does
 
 <p>Opening this with the hex editor, we find that the file is a .jfif file that is missing the proper header.</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/2ez2.png" alt="2ez"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/2ez2.png" alt="2ez"></p>
 
 <p>After doing a little bit of research, I found that the proper header for a .jfif file is <code class="language-plaintext highlighter-rouge">FF D8 FF E0</code></p>
 
 <p>I simply added this header to the image, allowing me to open it for the flag!</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/2ez3.png" alt="2ez2"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/2ez3.png" alt="2ez2"></p>
 
 <h2 id="integrity">Integrity</h2>
 <h4 id="description-my-school-was-trying-to-teach-people-about-the-cia-triad-so-they-made-all-these-dumb-example-applications-as-if-they-know-anything-about-information-security-supposedly-they-learned-their-lesson-and-tried-to-make-this-one-more-secure-can-you-prove-it-is-still-vulnerable">Description: “My school was trying to teach people about the CIA triad so they made all these dumb example applications… as if they know anything about information security. Supposedly they learned their lesson and tried to make this one more secure. Can you prove it is still vulnerable?”</h4>
 
 <p>This challenge involved a web application to verify the SHA256 hash of any file.</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Integrity2.png" alt="Integrity"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Integrity2.png" alt="Integrity"></p>
 
 <p>This one is basically a sequel to the challenge “Confidentiality,” which was solved by one of my teammates.</p>
 
@@ -249,18 +249,18 @@ Connecting to the port, you’re asked a simple question: “How many bytes does
 <p>My research brought me towards using burpsuite to injecting my own code into their application.
 I wasn’t too confident in this solution, but I tried entering a new line with the command <code class="language-plaintext highlighter-rouge">cat flag.txt</code></p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Integrity3.png" alt="Integrity 2"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Integrity3.png" alt="Integrity 2"></p>
 
 <p>Surprisingly enough, this worked perfectly!</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Integrity4.png" alt="Integrity 3"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Integrity4.png" alt="Integrity 3"></p>
 
 <h2 id="availability">Availability</h2>
 <h4 id="description-my-school-was-trying-to-teach-people-about-the-cia-triad-so-they-made-all-these-dumb-example-applications-as-if-they-know-anything-about-information-security-they-said-they-fixed-the-bug-from-the-last-app-but-they-also-said-they-knew-they-went-overboard-with-the-filtered-characters-so-they-loosened-things-up-a-bit-can-you-hack-it">Description: “My school was trying to teach people about the CIA triad so they made all these dumb example applications… as if they know anything about information security. They said they fixed the bug from the last app, but they also said they knew they went overboard with the filtered characters, so they loosened things up a bit. Can you hack it?”</h4>
 
 <p>This one was honestly the most enjoyable out of all the challenges. It was basically the same thing as the Integrity, with a web application that pings a port and gives outputs the success of the ping.</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Availability2.png" alt="Availability"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Availability2.png" alt="Availability"></p>
 
 <p>I tried the same thing I did with Intregrity, but instead of displaying the flag, it just gave me a successful ping.</p>
 
@@ -288,7 +288,7 @@ I wasn’t too confident in this solution, but I tried entering a new line with 
 
 <p>And here was the output:</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Availability3.png" alt="Availability 2"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Availability3.png" alt="Availability 2"></p>
 
 <p>Knowing the characters in the flag can now allow me to figure out exactly what the flag is, using a very similar script:</p>
 
@@ -311,7 +311,7 @@ I wasn’t too confident in this solution, but I tried entering a new line with 
 
 <p>And here was the output:</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Availability4.png" alt="Availability 3"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Availability4.png" alt="Availability 3"></p>
 
 <p>This means that the flag ends with the sequence ‘bf60’</p>
 
@@ -338,7 +338,7 @@ I wasn’t too confident in this solution, but I tried entering a new line with 
 
 <p>And here was the output:</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Availability6.png" alt="Availability 3"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Availability6.png" alt="Availability 3"></p>
 
 <p>And that was the correct flag!</p>
 
@@ -348,9 +348,9 @@ I wasn’t too confident in this solution, but I tried entering a new line with 
 
 <p>I’m definitely looking forward to the next one!</p>
 
-<p><img src="https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Hacktivity.png" alt="Congrats!"></p>
+<p><img src="https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Hacktivity.png" alt="Congrats!"></p>
 
-<p><a href="https://ainchentmew2.github.io" target="_blank" rel="noopener noreferrer nofollow">Back to Home Page</a></p>
+<p><a href="https://Glitch-Gecko.github.io" target="_blank" rel="noopener noreferrer nofollow">Back to Home Page</a></p>
 
   </div>
 

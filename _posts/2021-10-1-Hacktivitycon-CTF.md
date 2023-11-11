@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "H@cktivitycon CTF Writeups"
-author: Ainchentmew2
+author: GlitchGecko
 ---
 
 Before now, I've had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it'd be a great learning experience for me.
@@ -20,45 +20,45 @@ In this post, I'm going to be detailing my thought process and how I found each 
 Nobody on my team seemed interested in trying this one, as it involved an audio file and none of us had headphones.
 Checking the file type, I found that "tsunami" was a .wav file, so I renamed it accordingly.
 
-![Tsunami 1](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami2.png)
+![Tsunami 1](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Tsunami2.png)
 
 I figured maybe there was something hidden in the visualization in the wave itself, so I tried opening it in sonic visualiser.
 
-![Tsunami 2](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami3.png)
+![Tsunami 2](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Tsunami3.png)
 
 I couldn't find anything right away, but I looked at the spectrogram view and zoomed in a little towards the end, and the flag was right there in plaintext!
 
-![Tsunami 3](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Tsunami4.png)
+![Tsunami 3](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Tsunami4.png)
 
 ## Bass 64
 #### Description: "It, uh... looks like someone bass-boosted this? Can you make any sense of it?"
 
 Reading this file gave quite a weird result.
 
-![Bass64 1](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass642.png)
+![Bass64 1](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Bass642.png)
 
 I wonder what happens when I zoom out the terminal...
 
-![Bass64 2](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass643.png)
+![Bass64 2](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Bass643.png)
 
 Based on the hint, I assumed this was encoded via base 64, and ran the string through a decoder, giving me the flag!
 
-![Bass64 3](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Bass644.png)
+![Bass64 3](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Bass644.png)
 
 ## Target Practice
 #### Description: "Can you hit a moving target?"
 
 This one was a gif that looked a little like a target with vibrating dots on the outside of the target.
 
-![Target Practice](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/target_practice.gif)
+![Target Practice](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/target_practice.gif)
 
 I noticed that frame 16 looked a little odd compared to the rest, based on the top left corner sticking out, so I split apart the frames and extracted frame 16. 
 
-![Target Practice 2](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Target_Practice2.gif)
+![Target Practice 2](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Target_Practice2.gif)
 
 I wondered what I could do with the image, and realized it looked a little like a QR code. Upon searching for circular QR codes, I found out that the image was actually a Maxi code, and scanning it gave the flag!
 
-![Target Practice 3](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Target_Practice3.png)
+![Target Practice 3](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Target_Practice3.png)
 
 ## Butter Overflow
 #### Description: "Can you overflow this right?"
@@ -66,11 +66,11 @@ I wondered what I could do with the image, and realized it looked a little like 
 This one was a little fun to me.
 Connecting to the port, you're asked a simple question: "How many bytes does it take to overflow this buffer?" Upon any answer, you're immediately disconnected from the port.
 
-![Butter Overflow](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Butter_Overflow3.png)
+![Butter Overflow](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Butter_Overflow3.png)
 
 I assumed I needed to overflow the buffer, so I did what any sane person would do, and held the letter 'a' for a minute or so.
 
-![Butter Overflow 2](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Butter_Overflow2.png)
+![Butter Overflow 2](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Butter_Overflow2.png)
 
 Success!
 
@@ -81,20 +81,20 @@ For this challenge, you're simply given a data file that cannot be opened.
 
 Opening this with the hex editor, we find that the file is a .jfif file that is missing the proper header.
 
-![2ez](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/2ez2.png)
+![2ez](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/2ez2.png)
 
 After doing a little bit of research, I found that the proper header for a .jfif file is ```FF D8 FF E0```
 
 I simply added this header to the image, allowing me to open it for the flag!
 
-![2ez2](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/2ez3.png)
+![2ez2](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/2ez3.png)
 
 ## Integrity
 #### Description: "My school was trying to teach people about the CIA triad so they made all these dumb example applications... as if they know anything about information security. Supposedly they learned their lesson and tried to make this one more secure. Can you prove it is still vulnerable?"
 
 This challenge involved a web application to verify the SHA256 hash of any file.
 
-![Integrity](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Integrity2.png)
+![Integrity](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Integrity2.png)
 
 This one is basically a sequel to the challenge "Confidentiality," which was solved by one of my teammates.
 
@@ -103,18 +103,18 @@ Confidentiality involved just using ```;``` or ```&&``` to add another command t
 My research brought me towards using burpsuite to injecting my own code into their application.
 I wasn't too confident in this solution, but I tried entering a new line with the command ```cat flag.txt```
 
-![Integrity 2](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Integrity3.png)
+![Integrity 2](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Integrity3.png)
 
 Surprisingly enough, this worked perfectly!
 
-![Integrity 3](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Integrity4.png)
+![Integrity 3](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Integrity4.png)
 
 ## Availability
 #### Description: "My school was trying to teach people about the CIA triad so they made all these dumb example applications... as if they know anything about information security. They said they fixed the bug from the last app, but they also said they knew they went overboard with the filtered characters, so they loosened things up a bit. Can you hack it?"
 
 This one was honestly the most enjoyable out of all the challenges. It was basically the same thing as the Integrity, with a web application that pings a port and gives outputs the success of the ping.
 
-![Availability](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Availability2.png)
+![Availability](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Availability2.png)
 
 I tried the same thing I did with Intregrity, but instead of displaying the flag, it just gave me a successful ping.
 
@@ -144,7 +144,7 @@ print(character_dictionary)
 
 And here was the output:
 
-![Availability 2](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Availability3.png)
+![Availability 2](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Availability3.png)
 
 Knowing the characters in the flag can now allow me to figure out exactly what the flag is, using a very similar script:
 
@@ -168,7 +168,7 @@ print(flag)
 
 And here was the output:
 
-![Availability 3](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Availability4.png)
+![Availability 3](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Availability4.png)
 
 This means that the flag ends with the sequence 'bf60'
 
@@ -196,7 +196,7 @@ print(flag)
 
 And here was the output:
 
-![Availability 3](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Availability6.png)
+![Availability 3](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Availability6.png)
 
 And that was the correct flag!
 
@@ -207,6 +207,6 @@ Overall I had a blast and really enjoyed the CTF, and I'm glad I decided to try 
 
 I'm definitely looking forward to the next one!
 
-![Congrats!](https://raw.githubusercontent.com/Ainchentmew2/ainchentmew2.github.io/main/images/Hacktivity.png)
+![Congrats!](https://raw.githubusercontent.com/Glitch-Gecko/Glitch-Gecko.github.io/main/images/Hacktivity.png)
 
-[Back to Home Page](https://ainchentmew2.github.io)
+[Back to Home Page](https://Glitch-Gecko.github.io)
