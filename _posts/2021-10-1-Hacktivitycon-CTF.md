@@ -2,6 +2,15 @@
 layout: post
 title: "H@cktivitycon CTF Writeups"
 author: GlitchGecko
+tags:
+- CTF
+- Writeup
+- Steg
+- Burpsuite
+- Scripting
+- Blind SQL Injection
+- SQL Injection
+- File Headers
 ---
 
 Before now, I've had no experience in anything involving Cybersecurity, but when I heard about the CTF run by John Hammond, congon4tor, M_alpha, fumenoid, NightWolf, Blacknote, and CalebStewart, I figured it'd be a great learning experience for me.

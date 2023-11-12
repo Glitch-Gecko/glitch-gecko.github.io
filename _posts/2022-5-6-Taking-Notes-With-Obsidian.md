@@ -2,6 +2,9 @@
 layout: post
 title: "Taking Notes With Obsidian"
 author: GlitchGecko
+tags:
+- Obsidian
+- Note taking
 ---
 
 If done correctly, taking notes provides a deeper understanding in material while simultaneously giving a custom source that you can refer to whenever needed.

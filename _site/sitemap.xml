@@ -21,6 +21,12 @@
 <loc>http://localhost:4000/now.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/posts.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tags.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/google49682ca00586c630.html</loc>
 <lastmod>2023-11-11T15:12:39-06:00</lastmod>
 </url>
