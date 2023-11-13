@@ -4,7 +4,7 @@ title: Tags
 tagline: All tags
 permalink: /tags.html
 ref: tags
-order: 4
+order: 5
 ---
 
 [Back to Home Page]({{ '/' | absolute_url }})

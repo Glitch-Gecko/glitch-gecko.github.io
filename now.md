@@ -4,7 +4,7 @@ title: Now
 tagline: What I'm doing now
 permalink: /now.html
 ref: now
-order: 2
+order: 0
 ---
 
 # Education

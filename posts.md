@@ -4,7 +4,7 @@ title: Posts
 tagline: All posts
 permalink: /posts.html
 ref: posts
-order: 3
+order: 4
 ---
 
 [Back to Home Page]({{ '/' | absolute_url }})

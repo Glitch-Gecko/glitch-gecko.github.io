@@ -4,7 +4,7 @@ title: About
 tagline: A little information about me
 permalink: /about.html
 ref: about
-order: 0
+order: 1
 ---
 
 I'm a cyber security major with a passion for learning and improving my abilities in programming. I'm currently a junior, and am skilled and have some experience in many languages, including Python, Autohotkey, HTML, CSS, Javascript, Java, C++, Lua, PHP, Bash, Ruby, VBScript, and Powershell.

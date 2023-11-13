@@ -3,7 +3,7 @@ layout: page
 title: Contact
 tagline: Feel free to contact me!
 ref: contact
-order: 1
+order: 3
 ---
 
 If you want to contact me for any reason, you can do so through either discord at `glitchgecko`, or with the following email contact form:
