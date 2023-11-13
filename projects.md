@@ -55,3 +55,6 @@ Other projects of mine can be found on my [LinkedIn](https://www.linkedin.com/in
 ---
 
 [Back to Home Page]({{ '/' | absolute_url }})
+
+
+Reminder for future me: Update this and add hardware hacking, pihole server, and vaultwarden server projects.
