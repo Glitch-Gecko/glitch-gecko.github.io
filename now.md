@@ -23,5 +23,3 @@ I have a lot of hobbies that I'm very interested in, and recently I've been spen
 I've been working hard and preparing for a 20 hour drive to Moab, Utah, where I'm hopefully going to walk across a 1" wide 88' long highline. (Just gotta get that sit start down)
 
 Other than my physical hobbies, I've also been improving my skills for CTFs, and I've been fleshing out my [Arch Ignition Key](https://github.com/Glitch-Gecko/arch-ignition-key), which is a script to setup Arch Linux with my custom dotfiles.
-
-[Back to Home Page]({{ '/' | absolute_url }})

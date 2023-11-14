@@ -2,6 +2,7 @@
 layout: post
 title: "H@cktivitycon CTF Writeups"
 author: GlitchGecko
+tagline: My intro to CTFs
 tags:
 - CTF
 - Writeup
@@ -217,5 +218,3 @@ Overall I had a blast and really enjoyed the CTF, and I'm glad I decided to try 
 I'm definitely looking forward to the next one!
 
 ![Congrats!](https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/Hacktivity.png)
-
-[Back to Home Page](https://glitch-gecko.github.io)

@@ -15,5 +15,3 @@ Note: This website hasn't been updated in some time, I've been off working on so
 Note from the future (11/11/23): I've finally started updating this website! Expect to see more content coming soon.
 
 Check out my [Now page]({{ '/now.html'}}) to learn what I'm doing now!
-
-[Back to Home Page]({{ '/' | absolute_url }})

@@ -24,4 +24,3 @@ I think the main reason notes didn't work for me in the past was that I simply w
 ## How Obsidian Works
 
 Obsidian stores notes locally in a folder referred to as a 'vault'. This vault contains all plugins, notes, images, or anything else used in your notes.
-

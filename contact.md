@@ -23,5 +23,3 @@ If you want to contact me for any reason, you can do so through either discord a
   <!-- your other form fields go here -->
   <button type="submit">Send</button>
 </form>
-
-[Back to Home Page]({{ '/' | absolute_url }})

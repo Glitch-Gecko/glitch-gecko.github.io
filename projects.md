@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: Projects
-tagline: My projects
+tagline: Projects I've completed
 permalink: /projects.html
 ref: projects
 order: 2
@@ -50,11 +50,4 @@ order: 2
 - Custom-built website using Jekyll through Github Pages.
 
 # Other Projects
-Other projects of mine can be found on my [LinkedIn](https://www.linkedin.com/in/nicolas-formella-164187263/details/projects/), which will hopefully be updated soon.
-
----
-
-[Back to Home Page]({{ '/' | absolute_url }})
-
-
-Reminder for future me: Update this and add hardware hacking, pihole server, and vaultwarden server projects.
+Other projects of mine can be found on my [LinkedIn](https://www.linkedin.com/in/nicolas-formella-164187263/), which will hopefully be updated soon.
