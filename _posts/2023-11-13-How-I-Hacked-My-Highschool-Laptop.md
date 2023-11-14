@@ -33,7 +33,7 @@ I discovered that it's possible to reset a BIOS password by simply draining the 
 
 The image above shows the CMOS battery (the circular battery with red and black wires). I unplugged it, powered on the laptop, and then shut it down again, which drained the battery.
 
-After draining the battery, I reset the password using bios-pw.org and finally got full control of the laptop. This allowed me to change the boot order and install whatever I wanted.
+After draining the battery, I reset the password using [bios-pw.org](https://bios-pw.org) and finally got full control of the laptop. This allowed me to change the boot order and install whatever I wanted.
 
 ![HardwareHacking 6](https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/HardwareHacking6.jpg)
 
