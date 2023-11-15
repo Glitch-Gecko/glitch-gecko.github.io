@@ -12,6 +12,4 @@ I'm a cyber security major with a passion for learning and improving my abilitie
 
 Note: This website hasn't been updated in some time, I've been off working on some other projects for security and for school, but I have still been quite active with cybersecurity and the CTF scene!
 
-Note from the future (11/11/23): I've finally started updating this website! Expect to see more content coming soon.
-
 Check out my [Now page]({{ '/now.html'}}) to learn what I'm doing now!

@@ -7,8 +7,6 @@ ref: projects
 order: 2
 ---
 
-
-
 # [Arch Ignition Key](https://github.com/Glitch-Gecko/arch-ignition-key)
 - Scripts and dotfiles for an easy setup of Arch Linux with a custom rice, designed for a fresh install.
 
@@ -49,5 +47,8 @@ order: 2
 # [This website](https://github.com/Glitch-Gecko/glitch-gecko.github.io)
 - Custom-built website using Jekyll through Github Pages.
 
+# [Hardware Hacking](https://glitch-gecko.github.io/2023/11/13/How-I-Hacked-My-Highschool-Laptop.html)
+- Check out my writeup on how I hacked my highschool laptop!
+
 # Other Projects
-Other projects of mine can be found on my [LinkedIn](https://www.linkedin.com/in/nicolas-formella-164187263/), which will hopefully be updated soon.
+Other projects of mine can be found on my [LinkedIn](https://www.linkedin.com/in/nicolas-formella-164187263/).
