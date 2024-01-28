@@ -5,7 +5,7 @@ show_downloads: false
 site_favicon: favicon.ico
 
 baseurl: "/" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "https://glitch-gecko.github.io" # change this to the base hostname & protocol for your site
+url: "https://glitchgecko.xyz" # change this to the base hostname & protocol for your site
 
 google_analytics:
 

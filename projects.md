@@ -47,7 +47,7 @@ order: 2
 # [This website](https://github.com/Glitch-Gecko/glitch-gecko.github.io)
 - Custom-built website using Jekyll through Github Pages.
 
-# [Hardware Hacking](https://glitch-gecko.github.io/2023/11/13/How-I-Hacked-My-Highschool-Laptop.html)
+# [Hardware Hacking](https://glitchgecko.xyz/2023/11/13/How-I-Hacked-My-Highschool-Laptop.html)
 - Check out my writeup on how I hacked my highschool laptop!
 
 # Other Projects
