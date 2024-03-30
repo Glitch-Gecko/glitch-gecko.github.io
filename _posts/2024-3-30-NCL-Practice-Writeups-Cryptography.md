@@ -125,7 +125,7 @@ Unfortunately, we have to decode each byte at a time. This is done trivially usi
 
 ## Image (Medium)
 #### Description: "We have downloaded an image from a Russian forum, but cannot open it. Can you take a look and find it's contents? We saved the curl log - maybe that will help you."
-#### Provided files: [exfil.tar.gz](https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/post_assets/NCL_Practice/image.png)
+#### Provided files: [Image.png](https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/post_assets/NCL_Practice/Image.png)
 
 ```
 HTTP/1.1 200 OK
