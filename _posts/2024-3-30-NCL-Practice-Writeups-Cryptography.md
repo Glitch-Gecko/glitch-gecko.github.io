@@ -4,11 +4,15 @@ title: "NCL Practice Round Writeups: Cryptography"
 author: GlitchGecko
 tagline: Writeups for the NCL practice round Cryptography challenges
 tags:
+- National Cyber League
+- Cyber Skyline
 - CTF
 - Writeup
 - Cryptography
 - Crpyto
 - RSA
+- Encoding
+- Cyberchef
 ---
 
 NCL Practice Round Crypto challenge writeups

@@ -4,9 +4,12 @@ title: "NCL Practice Round Writeups: OSINT"
 author: GlitchGecko
 tagline: Writeups for the NCL practice round OSINT challenges
 tags:
+- National Cyber League
+- Cyber Skyline
 - CTF
 - Writeup
 - OSINT
+- Open source intelligence
 ---
 
 NCL Practice Round OSINT challenge writeups
