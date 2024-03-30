@@ -121,7 +121,7 @@ I found that two of the items were actually discontinued, but a quick google sea
 
 This one was pretty much just a GeoGuesser challenge.
 
-Without knowing the building, looking at the 'front' image tells you that you're on US [31W](https://en.wikipedia.org/wiki/U.S._Route_31W). The 'back' image tells you you're near somewhere ending in 'ville'.
+Without knowing the building, looking at the 'front' image tells you that you're on [US 31W](https://en.wikipedia.org/wiki/U.S._Route_31W). The 'back' image tells you you're near somewhere ending in 'ville'.
 
 The wikipedia page shows a couple 'ville's, but looking under the Kentucky part, you see that the route passes through Fort Knox within sight of the US Bullion Depository by Louisville.
 
