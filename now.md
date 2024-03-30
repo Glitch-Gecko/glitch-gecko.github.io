@@ -20,7 +20,7 @@ Last summer, I also took a cybersecurity analyst internship at Panduit, where I 
 After the former club president graduated, I have been placed as Senior Club President for the Lewis University Cyber Defense Club, where I lead with several co-presidents to organize club meetings and events. My main focuses in the club are planning talks and presentations for meetings, helping members prepare for their cybersecurity career goals, competition prep (primarily for CTFs), and competitive team leadership.
 
 # Hobbies
-I have a lot of hobbies that I'm very interested in, and recently I've been spending my free time slacklining, rock climbing, and working out at the gym. (Which is on hold for the most part now that I broke my toe)
+I have a lot of hobbies that I'm very interested in, and recently I've been spending my free time slacklining, rock climbing, and working out at the gym.
 
 This past fall, I got the amazing expierence to get my feet into highlining, where I took my first steps on a 1" wide webbing suspended over 300' in the air, without any assistance.
 

@@ -9,6 +9,10 @@ tags:
 - OSINT
 ---
 
+NCL Practice Round OSINT challenge writeups
+
+---
+
 Following a short break after this year's CCDC, I jumped back into the CTF grind and started studying Crypto and Binary Exploitation. I've been looking for an opportunity to utilize my new skills, and it just so happens that my Cyber Defense Club was looking to sign a team up for the National Cyber League.
 
 It definitely seems like I've learned a lot, especially since at the time of writing this, I'm 8th place out of almost 8,000 participants in the practice round, with over 95% challenge completion.
@@ -52,13 +56,13 @@ Creation Date: 2016-02-16T18:23:14.904Z
 Registrar: Dynadot, LLC
 ```
 
-`Q4: What is the TLD of this domain?`
+### Q4: What is the TLD of this domain?
 
 This one doesn't need any tools. The TLD is simply the last part of the domain, following the domain name:
 
 cityinthe.`cloud`
 
-`Q5: What organization manages the TLD used by cityinthe.cloud?`
+### Q5: What organization manages the TLD used by cityinthe.cloud?
 
 This one only needed a quick google search:
 ![Search](https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/NCL_SP_2024/search.png)

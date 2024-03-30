@@ -10,7 +10,7 @@ tags:
 - BIOS
 ---
 
-In this writeup, I'll sharing my experience with repurposing a high-school laptop that I got from a recent grad. My goal was pretty straightforward: set up a few servers for my home network, like a pihole, an image-hosting server, and a password manager. But, there was a catch – the laptop was locked down to only work with school network accounts. Challenge accepted!
+In this writeup, I'll be sharing my experience with repurposing a high-school laptop that I got from a recent grad. My goal was pretty straightforward: set up a few servers for my home network, like a pihole, an image-hosting server, and a password manager. But, there was a catch – the laptop was locked down to only work with school network accounts. Challenge accepted!
 
 ![HardwareHacking 1](https://raw.githubusercontent.com/Glitch-Gecko/glitch-gecko.github.io/main/images/HardwareHacking1.jpg)
 
