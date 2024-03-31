@@ -12,7 +12,7 @@ tags:
 - Open source intelligence
 ---
 
-NCL Practice Round OSINT challenge writeups
+NCL practice round OSINT challenge writeups
 
 ---
 

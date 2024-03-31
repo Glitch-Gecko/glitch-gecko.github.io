@@ -15,7 +15,7 @@ tags:
 - Cyberchef
 ---
 
-NCL Practice Round Crypto challenge writeups
+NCL practice round Crypto challenge writeups
 
 ---
 
